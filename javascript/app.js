@@ -16,3 +16,6 @@ function clearResults() {
 }
 
  
+ function history () {
+ 	history.innerHTML = result.innerHTML
+ };
