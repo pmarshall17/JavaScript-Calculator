@@ -1,6 +1,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+	<script type='text/javascript' src='javascript/app.js'></script>
 </head>
 <header>
 	<h1 class = "header">Calculator<hr/></h1>
@@ -8,30 +9,33 @@
 <body>
 
 	<div id = 'calculator' class="row" class="container">
-		<div class="result"><p></p></div>
-		<div class="clear"> Clear All </div>
+		<div><p id="result" class="result"></p></div>
+		
+		<span class="clear" onclick="clearResults()">Clear All</span>
 
-		<span>7</span>
-		<span>8</span>
-		<span>9</span>
-		<span>+</span>
+		<span onclick="addValue(7)">7</span>
+		<span onclick="addValue(8)">8</span>
+		<span onclick="addValue(9)">9</span>
+		<span onclick="addValue('+')">+</span>
 
-		<span>4</span>
-		<span>5</span>
-		<span>6</span>
-		<span>-</span>
+		<span onclick="addValue(4)">4</span>
+		<span onclick="addValue(5)">5</span>
+		<span onclick="addValue(6)">6</span>
+		<span onclick="addValue('-')">-</span>
 
-		<span>1</span>
-		<span>2</span>
-		<span>3</span>
-		<span>/</span>
+		<span onclick="addValue(1)">1</span>
+		<span onclick="addValue(2)">2</span>
+		<span onclick="addValue(3)">3</span>
+		<span onclick="addValue('/')">/</span>
 
-		<span>0</span>
-		<span>.</span>
-		<span>=</span>
-		<span>x</span>
+		<span onclick="addValue(0)">0</span>
+		<span onclick="addValue('.')">.</span>
+		<span onclick="calculate('=')">=</span>
+		<span onclick="addValue('*')">x</span>
 	</div>
+
+
 
 </body>
 </html>
-<button onCLick></button>
+
