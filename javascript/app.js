@@ -15,6 +15,7 @@ function calculate(i) {
 	var historyBox = document.getElementById('history');
 	
 	historyBox.innerHTML += history;
+	historyBox.innerHTML += "<br/>";
 }
 
 function clearResults() {
