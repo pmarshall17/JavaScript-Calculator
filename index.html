@@ -13,8 +13,6 @@
 	<div id = 'calculator' class="row" class="container">
 		
 		<div><p id="result" class="result"></p></div>
-		
-		<span class="clear" onclick="clearResults()">Clear All</span>
 
 		<span onclick="addValue(7)" class="waves-effect waves-light btn">7</span>
 		<span onclick="addValue(8)" class="waves-effect waves-light btn">8</span>
@@ -35,20 +33,18 @@
 		<span onclick="addValue('.')" class="waves-effect waves-light btn">.</span>
 		<span onclick="calculate('=')" class="waves-effect waves-light btn">=</span>
 		<span onclick="addValue('*')" class="waves-effect waves-light btn">x</span>
+
+		<span class="waves-effect waves-light btn" id="clear" onclick="clearResults()">Clear All</span>
+
 	</div>
 </body>
 <br/>
 <hr/>
 
 <footer>
-	<h4 class = "history_header">History</h3>
+	<h4 class = "history_header">History</h4>
 	<div class="border">
 		<div><p id="history"></p></div>
-
-		
-
-
-
 	</div>	
 </footer>
 

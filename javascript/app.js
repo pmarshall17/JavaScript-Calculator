@@ -1,5 +1,3 @@
-var history = "";
-
 window.onload = function () {
 	var result = document.getElementById('result');
 }
@@ -11,9 +9,11 @@ result.innerHTML += i;
 
 function calculate(i) {
 	result.innerHTML = eval(result.innerHTML);
-	// history += eval(result.innerHTML);
+	history += eval(result.innerHTML);
+	
 	var history = parseInt(eval(result.innerHTML));
 	var historyBox = document.getElementById('history');
+	
 	historyBox.innerHTML += history;
 }
 

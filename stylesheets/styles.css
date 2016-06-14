@@ -1,7 +1,7 @@
-/*body {
-  background-color: lightgray
+body {
+  background-color: #8B45D1;
 }
-*/
+
 
 * {
   margin: 1;
@@ -14,9 +14,9 @@
   margin: 60px auto 0 auto;
 }
 .result {
-  width: 285px;
+  width: 385px;
   height: 40px;
-  border: 1px solid grey;
+  border: 3px solid black;
   float: left;
   line-height: 40px;
 }
@@ -31,7 +31,7 @@
   cursor: pointer;
 }
 .clear {
-  width: 95px;
+  width: 80px;
   float: left;
 }
 span {
@@ -52,10 +52,11 @@ span {
     height: 350px;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 10px solid #ccc;
+    border: 7px solid #363A6E;
     border-radius: 4px;
     background-color: #b5b1bc;
     resize: none;
     margin-left: 35%;
+    text-align: center;
 }
 
