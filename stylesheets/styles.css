@@ -1,3 +1,8 @@
+/*body {
+  background-color: lightgray
+}
+*/
+
 * {
   margin: 1;
   padding: 0;
@@ -43,7 +48,7 @@ span {
 }
 
 .border {
-    width: 60%;
+    width: 30%;
     height: 350px;
     padding: 12px 20px;
     box-sizing: border-box;
@@ -51,6 +56,6 @@ span {
     border-radius: 4px;
     background-color: #b5b1bc;
     resize: none;
-    margin-left: 20%;
+    margin-left: 35%;
 }
 
