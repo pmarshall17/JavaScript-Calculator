@@ -42,3 +42,15 @@ span {
   text-align: center;
 }
 
+.border {
+    width: 60%;
+    height: 350px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 10px solid #ccc;
+    border-radius: 4px;
+    background-color: #b5b1bc;
+    resize: none;
+    margin-left: 20%;
+}
+

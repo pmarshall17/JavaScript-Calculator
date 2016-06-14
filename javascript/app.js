@@ -14,8 +14,3 @@ function calculate(i) {
 function clearResults() {
  result.innerHTML = "";
 }
-
- 
- function history () {
- 	history.innerHTML = result.innerHTML
- };
