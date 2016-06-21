@@ -1,5 +1,8 @@
+let result;
+let history;
+let historyBox;
 window.onload = function () {
-	let result = document.getElementById('result');
+	result = document.getElementById('result');
 }
 
 function addValue(i) {
@@ -11,8 +14,8 @@ function calculate(i) {
 	result.innerHTML = eval(result.innerHTML);
 	history += eval(result.innerHTML);
 	
-	let history = parseInt(eval(result.innerHTML));
-	let historyBox = document.getElementById('history');
+	history = parseInt(eval(result.innerHTML));
+	historyBox = document.getElementById('history');
 	
 	historyBox.innerHTML += history;
 	historyBox.innerHTML += "<br/>";
